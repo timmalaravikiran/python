@@ -1,0 +1,8 @@
+def func(list):
+    a = 0
+    for i in list:
+        a += i
+    return a
+
+list = [1,2,3,4,5]    
+print(func(list))
